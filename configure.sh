@@ -6,7 +6,7 @@ sudo mdutil -i off -a
 #Create new account
 sudo dscl . -create /Users/vncuser
 sudo dscl . -create /Users/vncuser UserShell /bin/bash
-sudo dscl . -create /Users/vncuser RealName "Rabiu Hadi Salisu"
+sudo dscl . -create /Users/vncuser RealName "anon"
 sudo dscl . -create /Users/vncuser UniqueID 1001
 sudo dscl . -create /Users/vncuser PrimaryGroupID 80
 sudo dscl . -create /Users/vncuser NFSHomeDirectory /Users/vncuser
@@ -29,5 +29,5 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 brew install --cask ngrok
 
 #configure ngrok and start it
-ngrok authtoken 2Hd7yeF4INCKbg2aP9rGMLnDqBX_5K7WhATjW8eUxS6UoHSRa
+ngrok authtoken 2OIYHkEzggKTSfuxhriv4uSBV9l_4bC8TDaoDfL1xspbCjQ56
 ngrok tcp 5900 &
